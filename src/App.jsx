@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
+import Contenido from './Components/Contenido/Contenido';
 import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import './App.css'
@@ -10,7 +11,7 @@ function App() {
       <div className="content">
       <NavBar />
         <Container>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet purus quis metus imperdiet, et venenatis lacus fringilla.
+        <Contenido />
         </Container>
       </div>
       <Footer className="footer"/>
